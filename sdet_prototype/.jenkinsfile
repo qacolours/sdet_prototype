@@ -24,7 +24,7 @@ pipeline
 		{
 			steps
 			{
-				bat "mvn test"
+				bat "mvn -f ./sdet_prototype/pom.xml test"
 			}
 		}
 		
@@ -40,7 +40,7 @@ pipeline
 		{
 			steps
 			{
-				bat "mvn test"
+				bat "mvn -f ./sdet_prototype/pom.xml test"
 			}
 		}
 		
