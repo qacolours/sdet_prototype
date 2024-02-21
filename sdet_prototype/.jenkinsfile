@@ -8,7 +8,7 @@ pipeline
 		{
 			steps
 			{
-				bat "mvn clean"
+				bat "mvn -f ./sdet_prototype/pom.xml clean"
 			}
 		}
 		
